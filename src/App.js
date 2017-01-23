@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { Welcome } from './Welcome';
 import MyClock from './MyClock';
+import ToggleButton from './ToggleButton';
 
 class App extends Component {
 
@@ -21,9 +22,9 @@ class App extends Component {
               <Welcome name="Test User" />
               <MyClock />
             </div>
-            <p className="App-intro">
-              Content
-            </p>
+            <div className="App-intro">
+                <ToggleButton />
+            </div>
           </div>
         );
     }
